@@ -13,7 +13,7 @@ function getIt(){
   })
 }
 function frameIt(){
-  $(input).on("load",function(){
+  $(inmg).on("load",function(){
 .addclass("tasty");
   })
 }
