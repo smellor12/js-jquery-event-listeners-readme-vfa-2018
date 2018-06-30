@@ -1,6 +1,17 @@
 //define functions here
+$('p').click(function(getIt) {
 
-$(document).ready(function(){
+ alert("Hey!!!");
+
+
+}); 
+ 
+
+
+
+
+
+$(document).ready(function(getIt){
 
 // call functions here
 
