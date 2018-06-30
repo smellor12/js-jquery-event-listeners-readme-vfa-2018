@@ -19,7 +19,7 @@ function frameIt(){
 }
 function pressIt(){
   $(document).on('keydown',function(key){
-    if(key.which -== 81){alert('g was pressed');
+    if(key.which -== 71){alert('g was pressed');
     }});
   })
 }
