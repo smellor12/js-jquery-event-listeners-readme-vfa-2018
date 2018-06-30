@@ -13,7 +13,13 @@ function getIt(){
   })
 }
 function frameIt(){
-  $(inmg).on("load",function(){
-.addclass("tasty");
+  $("img").on("load",function(){
+    $("img").addclass("tasty");
+  })
+}
+function pressIt(){
+  $(document).on('keydown',function(key){
+    if(key.which -== 81){alert('g was pressed');
+    }});
   })
 }
