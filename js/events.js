@@ -14,7 +14,7 @@ function getIt(){
 }
 function frameIt(){
   $("img").on("load",function(){
-    $("img").addclass("tasty");
+    $("img").addClass("tasty");
   })
 }
 function pressIt(){
